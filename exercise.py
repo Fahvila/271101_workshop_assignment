@@ -79,7 +79,7 @@ while True:
                 (255, 0, 255), 3)
     cv2.putText(img, str(str(Finger)), (70, 400), cv2.FONT_HERSHEY_PLAIN, 1.5,
                 (255, 0, 255), 3)
-    name = "FAH"; #Frame rate per second
+    name = "FAH";
     cv2.putText(img, str(str(name)), (500, 450), cv2.FONT_HERSHEY_PLAIN, 3,
                 (255, 0, 255), 3)
     cv2.imshow("Image", img)
